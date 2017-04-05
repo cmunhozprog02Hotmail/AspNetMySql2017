@@ -7,5 +7,8 @@ namespace AspNetMySql.Models
 {
     public class Cliente
     {
+        public long ClienteID { get; set; }
+        public string Nome { get; set; }
+        public string Email { get; set; }
     }
 }
